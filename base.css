@@ -1,4 +1,14 @@
+.hashtag-link {
+  color: var(--md-secondary);
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}
 
+.hashtag-link:hover {
+  text-decoration: underline;
+  color: var(--md-secondary-light);
+}
 
 /* Material Design color variables */
 :root {
